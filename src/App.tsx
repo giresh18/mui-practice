@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import {  Box } from "@mui/material"
 import './App.css';
+import Muichip from "./Components/Muichip";
+// import Muilist from "./Components/Muilist";
+// import Muibadge from "./Components/Muibadge";
+// import Bottomnavigation from "./Components/Bottomnavigation";
+// import Muispeeddail from "./Components/Muispeeddail";
+// import Muinavbar from "./Components/Muinavbar";
+// import Muilink from "./Components/Muilink";
+// import Muibreadcrumbs from "./Components/Muibreadcrumbs";
+// import Muimenu from "./Components/Muimenu";
+// import Muiaccordian from "./Components/Muiaccordian";
+// import Muicard from "./Components/Muicard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box className="App">
+   {/* <Muicard /> */}
+   {/* <Muiaccordian /> */}
+   {/* <Muinavbar />
+   {/* <Muilink /> */}
+   {/* <Muibreadcrumbs />
+   <Muimenu /> */} 
+   {/* <Muispeeddail /> */}
+   {/* <Muibadge /> */}
+   {/* <Bottomnavigation /> */}
+   {/* <Muilist /> */}
+   <Muichip />
+    </Box>
   );
 }
 
